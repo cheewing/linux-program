@@ -1,0 +1,25 @@
+new client connect: 0.0.0.0:0
+
+client msg: hell
+send: [2018-02-01 18:32:15]server reply: hell
+
+peer closed, client disconnected, fd = 5
+new client connect: 0.0.0.0:0
+
+peer closed, client disconnected, fd = 5
+new client connect: 127.0.0.1:52770
+
+client msg: werwer
+send: [2018-02-01 18:32:25]server reply: werwer
+
+peer closed, client disconnected, fd = 5
+new client connect: 127.0.0.1:52771
+
+client msg: sdfa
+send: [2018-02-01 18:33:25]server reply: sdfa
+
+peer closed, client disconnected, fd = 5
+program recv signal 15 to exit.
+epoll_wait error
+program recv signal 15 to exit.
+epoll_wait error
