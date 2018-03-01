@@ -160,7 +160,8 @@ void * worker_thread_func(void *arg)
         while (true)
         {
             memset(buff, 0, sizeof(buff));
-            int nRecv = ::recv(clientfd, buff, 256, 0);
+            int nRecv = ::recv(
+                , buff, 256, 0);
             if (nRecv == -1)
             {
                 if (errno == EWOULDBLOCK)
